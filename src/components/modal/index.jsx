@@ -28,8 +28,8 @@ export default function Modal({ closeModal, itemid, setdodos }) {
               })
             }
             src="./img/close.svg"
-            alt="close"
-          ></img>
+            alt="aa"
+          />
         </div>
         <div className="pasorab">
           <form className="editform" onSubmit={hendlsubmit}>
