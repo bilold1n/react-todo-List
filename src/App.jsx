@@ -55,23 +55,21 @@ function App() {
                   <p>{text}</p>
                   <p>{time}</p>
                   <div className="div">
-                    <img
+                    <button
                       onClick={() =>
                         setshowModal((prev) => {
                           return { ...prev, show: true, todoid: id };
                         })
                       }
-                      className="img"
-                      src="./img/img.svg"
-                      alt="edit"
-                    />
+                      className="img1"
+                    >
+                      {" "}
+                      edit
+                    </button>
 
-                    <img
-                      className="img"
-                      onClick={() => deleteItem(id)}
-                      src="./img/delete.svg"
-                      alt="delete"
-                    />
+                    <button onClick={() => deleteItem(id)} className="img">
+                      delete
+                    </button>
                   </div>
                 </li>
               );

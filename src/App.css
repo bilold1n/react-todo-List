@@ -98,14 +98,32 @@ a {
 }
 .div {
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 .img {
   cursor: pointer;
   transition: all 0.4s;
-  width: 25px;
+  width: 45px;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
 }
 .img:hover {
+  transform: scale(1.2);
+}
+.img1 {
+  cursor: pointer;
+  transition: all 0.4s;
+  width: 45px;
+  background-color: #059823;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+}
+.img1:hover {
   transform: scale(1.2);
 }
 .modal {

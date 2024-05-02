@@ -21,15 +21,16 @@ export default function Modal({ closeModal, itemid, setdodos }) {
       <div className="modal">
         <div className="tepaorab">
           <h2 className="edittitle">Edit Modal</h2>
-          <img
+          <button
             onClick={() =>
               closeModal((prev) => {
                 return { ...prev, show: false, todoid: "" };
               })
             }
-            src="./img/close.svg"
-            alt="aa"
-          />
+            className="img"
+          >
+            Close
+          </button>
         </div>
         <div className="pasorab">
           <form className="editform" onSubmit={hendlsubmit}>
