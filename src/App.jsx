@@ -62,13 +62,13 @@ function App() {
                         })
                       }
                       className="img"
-                      src="./src/assets/img.svg"
+                      src="./src/img/img.svg"
                       alt="delete"
                     />
                     <img
                       className="img"
                       onClick={() => deleteItem(id)}
-                      src="./src/assets/delete.svg"
+                      src="./src/img/delete.svg"
                       alt="delete"
                     />
                   </div>

@@ -27,7 +27,7 @@ export default function Modal({ closeModal, itemid, setdodos }) {
                 return { ...prev, show: false, todoid: "" };
               })
             }
-            src="./src/assets/close.svg"
+            src="./src/img/close.svg"
             alt="close"
           ></img>
         </div>
